@@ -9,7 +9,7 @@ const navItems = [
   { id: 4, name: "Software", url: "portfolio" },
   // { id: 5, name: "Blog", url: "blog" },
   { id: 6, name: "Work", url: "services" },
-  { id: 7, name: "Contact", url: "contact", button: true },
+  { id: 7, name: "Contact", url: "contact"},
 ];
 
 const handleMenuClick = () => {
