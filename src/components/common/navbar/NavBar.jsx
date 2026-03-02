@@ -27,11 +27,8 @@ const menu = navItems.map((item) => (
       duration={1000}
       spy={true}
       offset={-140}
-      activeStyle={{
-        backgroundColor: "#9929fb",
-        color: "white",
-      }}
-      className={item.button ? "btn btn-sm xs:btn-md sm:btn-lg btn-primary mx-1" : "hover:text-picto-primary px-5 py-3 mx-1"}
+      activeClass={item.name === "Contact" ? "btn btn-sm xs:btn-md sm:btn-lg btn-primary mx-1" : "bg-[#9929fb] text-white px-5 py-3 mx-1"}
+      className={item.name === "Contact" ? "btn btn-sm xs:btn-md sm:btn-lg mx-1" : "hover:text-picto-primary px-5 py-3 mx-1"}
     >
       {item.name}
     </Link>
