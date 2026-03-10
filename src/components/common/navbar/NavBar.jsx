@@ -7,7 +7,7 @@ const navItems = [
   { id: 2, name: "About", url: "profile" },
   { id: 3, name: "Process", url: "work-process" },
   { id: 4, name: "Software", url: "portfolio" },
-  // { id: 5, name: "Blog", url: "blog" },
+  { id: 5, name: "Certificate", url: "certification" },
   { id: 6, name: "Work", url: "services" },
   { id: 7, name: "Contact", url: "contact"},
 ];
